@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Nainja News Watch</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_blog_view">blogView</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="profilepics">ProfilePics</string>
+    <string name="loading">Loading...</string>
+    <string name="startimage">startImage</string>
+    <string name="welcome">Welcome</string>
+    <string name="nainjanews">Nainja News Watch</string>
+    <string name="choose_password">Choose Password</string>
+    <string name="enter_permanent_address">Enter Permanent Address</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="first_name_other_name">First_Name Other_Name</string>
+    <string name="re_enter_password">Re - Enter Password</string>
+    <string name="select_state">Select State</string>
+    <string name="save_record">Save Record</string>
+    <string name="action_login">Login</string>
+    <string name="action_view">View All Users</string>
+    <string name="action_new">Create New Account</string>
+    <string name="action_exit">Close CBT</string>
+    <string name="load">Loading ...</string>
+    <string name="loginHead">Login to Nainja News Watch</string>
+    <string name="email_address" />
+    <string name="click_to_login">CLICK TO LOGIN</string>
+    <string name="click_to_upload">CLICK TO UPLOAD</string>
+    <string name="click_to_update">CLICT TO UPDATE</string>
+    <!-- all states array-->
+    <string-array name="country_arrays">
+        <item>-select state-</item>
+        <item>Abuja</item>
+        <item>Abia</item>
+        <item>Adamawa</item>
+        <item>Akwa Ibom</item>
+        <item>Anambra</item>
+        <item>Bauchi</item>
+        <item>Bayelsa</item>
+        <item>Benue</item>
+        <item>Bornu</item>
+        <item>Cross River</item>
+        <item>Delta</item>
+        <item>Ebonyi</item>
+        <item>Edo</item>
+        <item>Ekiti</item>
+        <item>Enugu</item>
+        <item>Gombe</item>
+        <item>Imo</item>
+        <item>Jigawa</item>
+        <item>Kaduna</item>
+        <item>Kano</item>
+        <item>Katsina</item>
+        <item>Kebbi</item>
+        <item>Kogi</item>
+        <item>Kwara</item>
+        <item>Lagos</item>
+        <item>Nassarawa</item>
+        <item>Niger</item>
+        <item>Ogun</item>
+        <item>Ondo</item>
+        <item>Osun</item>
+        <item>Oyo</item>
+        <item>Plateau</item>
+        <item>Rivers</item>
+        <item>Sokoto</item>
+        <item>Taraba</item>
+        <item>Yobe</item>
+        <item>Zamfara</item>
+    </string-array>
+</resources>

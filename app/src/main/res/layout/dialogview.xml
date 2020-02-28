@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorwhite"
+    android:id="@+id/lay">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_horizontal_margin"
+        android:background="@color/colorwhite">
+        <ImageView android:layout_height="250dp"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/backtwo"
+            android:id="@+id/diaprofile_pic"
+            android:contentDescription="Profile Pics" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:typeface="sans"
+            android:id="@+id/txtUser"
+            android:textSize="15sp"
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:background="#59696969"
+            android:textColor="@android:color/white"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorwhite"
+        android:gravity="bottom"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnPassword"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="Password"
+            android:textColor="@android:color/black"
+            android:drawableLeft="@android:drawable/ic_menu_edit"
+            android:drawablePadding="5dp"
+            android:layout_alignTop="@+id/btnCamera"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/btnPics"
+            android:padding="15dp"
+            android:text="Picture"
+            android:textColor="@android:color/black"
+            android:drawableLeft="@android:drawable/ic_menu_upload"
+            android:drawablePadding="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+</LinearLayout>
